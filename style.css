@@ -90,7 +90,9 @@ html,body{
 #right{
     width: 35%;
     height: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
+    padding-top:200px;
+    padding-left: 138px;
 }
 #center{
     width: 30%;
@@ -167,4 +169,41 @@ html,body{
     left:50%;
     transform: translate(-50%,0);
     
+}
+
+#right-elems{
+   /* background-color: red; */
+    width: 350px;
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 2px solid white;
+    opacity: 0.6;
+}
+
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#elem1 i{
+    font-size: 24px;
+}
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    text-align: justify;
+    opacity: 0.6;
 }
