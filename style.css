@@ -21,7 +21,7 @@ html,body{
 }
 
 #nav{
-    padding: 0 40px;
+    padding: 0 50px;
     height: 140px;
     width: 100%;
     /* background-color: red; */
@@ -45,9 +45,10 @@ html,body{
     align-items: center;
 }
 
-/* > sign means direct child */
-#nav>i{
+/* > sign means direct child::: nav>i{} */
+#nav i{
     font-size: 25px;
+    margin-right: 5px;
 }
 
 #nav h5{
@@ -65,4 +66,42 @@ html,body{
     width: 70px;
     height: 2px;
     background-color: red;
+}
+
+#content{
+    /* background-color: blue; */
+    width: 100%;
+    /* using calc() to show bottom section without scroll bar with exact calculation of pixels */
+    height: calc(100% - 140px);
+
+    display: flex;
+
+}
+
+#left{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 100px 40px;
+}
+#right{
+    width: 35%;
+    height: 100%;
+    background-color: yellow;
+}
+#center{
+    width: 30%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+#left h1{
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+}
+
+#left h1 span{
+    color:red;
+    font-weight: 500;
 }
