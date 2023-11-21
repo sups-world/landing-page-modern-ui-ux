@@ -35,3 +35,21 @@ html,body{
     align-items: center;
     justify-content: space-between;
 }
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+/* > sign means direct child */
+#nav>i{
+    font-size: 25px;
+}
+
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
